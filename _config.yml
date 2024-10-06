@@ -54,7 +54,7 @@ socials_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 930px
+max_width: 850px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -113,7 +113,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
-  Email is the best way to reach you.
+  Email is the best way to reach me:)
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
