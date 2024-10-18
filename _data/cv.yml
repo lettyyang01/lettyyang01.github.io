@@ -1,97 +1,59 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. Student in Statistics
+      institution: University of Southern California, Los Angeles, CA, U.S.
+      year: Aug. 2023 - Present
+      # description:
+      #   - Department of Data Science and Operations (Statistics)
+      #   - Advisor: Prof. Dennis Shen
+    - title: B.S. in Statistics
+      institution: Southern University of Science and Technology (SUSTech), Shenzhen, China
+      year: Aug. 2019 - Jun. 2023
+    - title: Exchange Student
+      institution: University of California, Berkeley, CA, U.S.
+      year: Jan. 2022 - Jul. 2022
+
+
+- title: Academic Projects
+  type: time_table
+  contents:
+    - title: Algebraic and Statistical Properties of the Partially Regularized OLS Interpolator
+      institution: University of Southern California
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Advisor: Prof. Dennis Shen
+        - Ongoing project to enhance understanding of overparameterized linear regression.
+        - Developed partially regularized counterparts to Cochran's and leave-one-out formulas.
+        - Extended variance estimation for the Gauss-Markov model to high-dimensional settings.
+    - title: Refining Tissue-Specific Gene-Biological Process Relations with DNN
+      institution: University of California, Berkeley
       description:
-        - Description 1.
-        - Description 2.
+        - Advisor: Prof. Haiyan Huang
+        - Incorporates DNN clustering and stability testing for gene function analysis.
+        - Ongoing effort to refine Gene Ontology (GO) annotations using transcriptomic data.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Teaching Assistant
+      institution: SUSTech
+      year: Jan. 2023 - Jun. 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+        - TA for Time Series Analysis course
+    - title: Data Analysis Internship
+      institution: Peking University Shenzhen Hospital
+      year: Jun. 2021 - Aug. 2021
+      # description:
+      #   - Conducted survival analysis and prognostic factor analysis on TCGA and GEO databases.
+      #   - Identified 60 genes for further study through single gene expression analysis.
+      #   - Designed and conducted a survey on oral health behaviors, focusing on children under 15.
 
 - title: Honors and Awards
-  type: time_table
+  type: map
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - year: 2023
+      description: Summa Cum Laude in Science School (SUSTech)
+    - year: 2022
+      description: National Scholarship (0.2%, Ministry of Education China)
+    - year: 2021
+      description: First Class of the Merit Student Scholarship (5%, SUSTech)
