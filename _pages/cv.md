@@ -8,3 +8,5 @@ cv_pdf: example_pdf.pdf
 description: 
 toc: false
 ---
+
+{% assign cv = site.data.cv %}  <!-- Load the cv.yml data -->
