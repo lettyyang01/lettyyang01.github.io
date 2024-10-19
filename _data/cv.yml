@@ -15,23 +15,6 @@
       year: Jan. 2022 - Jul. 2022
 
 
-- title: Academic Projects
-  type: time_table
-  contents:
-    - title: Algebraic and Statistical Properties of the Partially Regularized OLS Interpolator
-      institution: University of Southern California
-      description:
-        - Advisor: Prof. Dennis Shen
-        - Ongoing project to enhance understanding of overparameterized linear regression.
-        - Developed partially regularized counterparts to Cochran's and leave-one-out formulas.
-        - Extended variance estimation for the Gauss-Markov model to high-dimensional settings.
-    - title: Refining Tissue-Specific Gene-Biological Process Relations with DNN
-      institution: University of California, Berkeley
-      description:
-        - Advisor: Prof. Haiyan Huang
-        - Incorporates DNN clustering and stability testing for gene function analysis.
-        - Ongoing effort to refine Gene Ontology (GO) annotations using transcriptomic data.
-
 - title: Experience
   type: time_table
   contents:
@@ -49,11 +32,14 @@
       #   - Designed and conducted a survey on oral health behaviors, focusing on children under 15.
 
 - title: Honors and Awards
-  type: map
+  type: time_table
   contents:
     - year: 2023
-      description: Summa Cum Laude in Science School (SUSTech)
+      items:
+        - Summa Cum Laude in Science School (SUSTech)
     - year: 2022
-      description: National Scholarship (0.2%, Ministry of Education China)
+      items:
+        - National Scholarship (0.2%, Ministry of Education China)
     - year: 2021
-      description: First Class of the Merit Student Scholarship (5%, SUSTech)
+      items:
+        - First Class of the Merit Student Scholarship (5%, SUSTech)
