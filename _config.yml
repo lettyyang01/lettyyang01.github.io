@@ -2,13 +2,13 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Letian in Stats # the website title (if blank, full name will be used instead)
+title: Letian Yang # the website title (if blank, full name will be used instead)
 first_name: Letian
 middle_name: Letty
 last_name: Yang
 email: letianya@usc.edu
 description: # the ">" symbol means to ignore newlines until "footer_text:"
-  Exploring the world through data—I'm Le Yang, a PhD student in Statistics. This site is a collection of my academic journey, research insights, and personal musings on all things statistical.
+  Exploring the world through data—I'm Letian Yang, a PhD student in Statistics. This site is a collection of my academic journey, research insights, and personal musings on all things statistical.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -78,7 +78,7 @@ dblp_url: # your DBLP profile url
 discord_id: # your discord id (18-digit unique numerical identifier)
 facebook_id: # your facebook id
 flickr_id: # your flickr id
-github_username: lettyyang01 # your GitHub user name
+github_username: LetianYang # your GitHub user name
 gitlab_username: # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
 inspirehep_id: # Inspire HEP author ID
