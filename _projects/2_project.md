@@ -1,14 +1,22 @@
 ---
 layout: page
-title: Refine Gene Anotations
+title: Refining Gene-Biological Process Relations with DNN
 description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+img: assets/img/flowchart.jpg
 importance: 2
 category: work
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
+**Refining Tissue-Specific Gene-Biological Process Relations with Deep Neural Network**
+
+## Authors 
+**Letian Yang**, **[Shuni Li](https://shunili.github.io/)**, **Yuting Ye**, **[Haiyan Huang](https://statistics.berkeley.edu/people/haiyan-huang)**
+
+This project aims to develop an effective procedure to refine GO annotations within a biological process-specific and tissue-specific context using transcriptomic data and existing GO annotations. Current GO annotations are often noisy due to their diverse sources. However, we believe that valuable information can be extracted from these annotations, allowing us to identify new genes and thereby add more detail to the existing annotations. We have developed a procedure that involves deep neural networks, clustering, and stability testing to refine the functionality of genes in a specific biological process across varying tissue-specific contexts.
+
+
+<!-- Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
 
@@ -78,4 +86,4 @@ Here's the code for the last row of images above:
 </div>
 ```
 
-{% endraw %}
+{% endraw %} -->
