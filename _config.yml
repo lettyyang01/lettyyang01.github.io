@@ -8,7 +8,7 @@ middle_name: Letty
 last_name: Yang
 email: letianya@usc.edu
 description: # the ">" symbol means to ignore newlines until "footer_text:"
-  Exploring the world through data—I'm Letian Yang, a PhD student in Statistics. This site is a collection of my academic journey, research insights, and personal musings on all things statistical.
+  Exploring the world through data—I'm Letian Yang, a PhD student in Statistics. This site is a collection of my academic journey, research insights and personal musings on all things statistical.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
