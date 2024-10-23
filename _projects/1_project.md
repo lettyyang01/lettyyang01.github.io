@@ -2,7 +2,7 @@
 layout: page
 title: Begin Overfitting in OLS Linear Regression
 description: with background image
-img: assets/img/12.jpg
+img:
 importance: 1
 category: academic
 related_publications: true
