@@ -2,23 +2,21 @@
   type: time_table
   contents:
     - title: Ph.D. Student in Statistics
-      institution: University of Southern California, Los Angeles, CA, U.S.
+      institution: University of Southern California
       year: Aug. 2023 - Present
     - title: B.S. in Statistics
-      institution: Southern University of Science and Technology (SUSTech), Shenzhen, China
+      institution: Southern University of Science and Technology
       year: Aug. 2019 - Jun. 2023
     - title: Exchange Student
-      institution: University of California, Berkeley, CA, U.S.
+      institution: University of California, Berkeley
       year: Jan. 2022 - Jul. 2022
 
 - title: Experience
   type: time_table
   contents:
-    - title: Teaching Assistant
-      institution: SUSTech
+    - title: Teaching Assistant for Time Series Analysis course
+      institution: Southern University of Science and Technology
       year: Jan. 2023 - Jun. 2023
-      description:
-        - TA for Time Series Analysis course
     - title: Data Analysis Internship
       institution: Peking University Shenzhen Hospital
       year: Jun. 2021 - Aug. 2021
