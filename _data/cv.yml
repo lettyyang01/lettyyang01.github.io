@@ -4,16 +4,12 @@
     - title: Ph.D. Student in Statistics
       institution: University of Southern California, Los Angeles, CA, U.S.
       year: Aug. 2023 - Present
-      # description:
-      #   - Department of Data Science and Operations (Statistics)
-      #   - Advisor: Prof. Dennis Shen
     - title: B.S. in Statistics
       institution: Southern University of Science and Technology (SUSTech), Shenzhen, China
       year: Aug. 2019 - Jun. 2023
     - title: Exchange Student
       institution: University of California, Berkeley, CA, U.S.
       year: Jan. 2022 - Jul. 2022
-
 
 - title: Experience
   type: time_table
@@ -26,10 +22,6 @@
     - title: Data Analysis Internship
       institution: Peking University Shenzhen Hospital
       year: Jun. 2021 - Aug. 2021
-      # description:
-      #   - Conducted survival analysis and prognostic factor analysis on TCGA and GEO databases.
-      #   - Identified 60 genes for further study through single gene expression analysis.
-      #   - Designed and conducted a survey on oral health behaviors, focusing on children under 15.
 
 - title: Honors and Awards
   type: time_table
