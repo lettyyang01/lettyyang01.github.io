@@ -1,16 +1,17 @@
 ---
 layout: page
 title: Begin Overfitting in OLS Linear Regression
-description: with background image
-img: assets/img/proj_1_pic.jpg
+description:
+img:
 importance: 1
 category: academic
-related_publications: true
+related_publications: false
 ---
 
+### Full Title
 **Algebraic and Statistical Properties of the Partially Regularized OLS Interpolator**
 
-## Authors 
+### Authors 
 **Letian Yang**, **[Dennis Shen](https://deshen24.github.io/)**
 
 Modern deep learning has revealed a surprising statistical phenomenon known as benign overfitting, with high-dimensional linear regression being a prominent example. This project contributes to ongoing research on the ordinary least squares (OLS) interpolator, focusing on the partial regression setting, where only a subset of coefficients is implicitly regularized. On the algebraic front, we extend Cochran's formula and the leave-one-out residual formula for the partial regularization framework. On the stochastic front, we leverage our algebraic results to design several homoskedastic variance estimators under the Gauss-Markov model. These estimators serve as a basis for conducting statistical inference, albeit with slight conservatism in their performance. Through simulations, we study the finite-sample properties of these variance estimators across various generative models.
