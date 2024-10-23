@@ -61,4 +61,3 @@ horizontal: true
   </div>
   {% endif %}
 {% endif %}
-</div> -->
