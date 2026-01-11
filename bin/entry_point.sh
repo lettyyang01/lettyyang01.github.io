@@ -8,10 +8,12 @@ manage_gemfile_lock() {
     if command -v git &> /dev/null && [ -f Gemfile.lock ]; then
         if git ls-files --error-unmatch Gemfile.lock &> /dev/null; then
             echo "Gemfile.lock is tracked by git, keeping it intact"
-            git restore Gemfile.lock 2>/dev/null || true
+            # Disabled: git restore Gemfile.lock 2>/dev/null || true
+            # This was causing version conflicts, so we keep the current Gemfile.lock
         else
-            echo "Gemfile.lock is not tracked by git, removing it"
-            rm Gemfile.lock
+            echo "Gemfile.lock is not tracked by git, keeping it (not removing)"
+            # Disabled: rm Gemfile.lock
+            # Keep Gemfile.lock even if not tracked by git to avoid dependency issues
         fi
     fi
 }
