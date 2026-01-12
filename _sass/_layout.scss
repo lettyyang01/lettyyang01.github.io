@@ -29,12 +29,19 @@ body.sticky-bottom-footer {
 
 .container {
   max-width: $max-content-width;
+  // 控制页面左右边距（padding）
+  padding-left: 3rem;  // 可以调整：1rem, 1.5rem, 2rem, 3rem 等
+  padding-right: 3rem; // 可以调整：1rem, 1.5rem, 2rem, 3rem 等
+  
+  // 控制页面顶部边距（覆盖 Bootstrap 的 mt-5）
+  margin-top: 0.5rem;    // 可以调整：1rem, 1.5rem, 2rem, 3rem 等
+  margin-bottom: 0.5rem; // 可以调整：1rem, 1.5rem, 2rem, 3rem 等
 }
 
 // Profile
 .profile {
   img {
-    width: 75%;
+    width: 100%;
   }
 }
 

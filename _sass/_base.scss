@@ -207,17 +207,20 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Adjust the margin of the profile image
 .profile.float-right {
-  margin-left: 0.8rem;
+  margin-left: 2rem;
 }
 
 .profile.float-left {
-  margin-right: 0.8rem;
+  margin-right: 2rem;
 }
+// ----
+
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 35%;
 
     .address {
       p {
@@ -870,6 +873,9 @@ html.transition *:after {
 
 // Extra Markdown style (post Customization)
 .post {
+  font-size: 1rem; // 调整正文文字大小
+  line-height: 1.3; // 调整行间距
+
   .post-meta {
     color: var(--global-text-color-light);
     font-size: 0.875rem;
