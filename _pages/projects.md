@@ -2,7 +2,7 @@
 layout: page
 title: Research
 permalink: /projects/
-description: 
+description:
 nav: True
 nav_order: 3
 horizontal: true
@@ -16,7 +16,7 @@ horizontal: true
 
 ## Motivation
 
-Modern machine learning has challenged classical statistical intuition: deep models with far more parameters than data can **generalize well despite overfitting** — a phenomenon known as *benign overfitting* ([Zhang et al., 2017](https://arxiv.org/abs/1611.03530); [Belkin, 2021](https://www.cambridge.org/core/journals/acta-numerica/article/abs/fit-without-fear-remarkable-mathematical-phenomena-of-deep-learning-through-the-prism-of-interpolation/DBAC769EB7F4DBA5C4720932C2826014)). High-dimensional linear regression plays a key role in understanding this behavior ([Bartlett et al., 2020a](https://pmc.ncbi.nlm.nih.gov/articles/PMC7720150/); [Hastie et al., 2022](https://projecteuclid.org/journals/annals-of-statistics/volume-50/issue-2/Surprises-in-high-dimensional-ridgeless-least-squares-interpolation/10.1214/21-AOS2133.full)).
+Modern machine learning has challenged classical statistical intuition: deep models with far more parameters than data can **generalize well despite overfitting** — a phenomenon known as _benign overfitting_ ([Zhang et al., 2017](https://arxiv.org/abs/1611.03530); [Belkin, 2021](https://www.cambridge.org/core/journals/acta-numerica/article/abs/fit-without-fear-remarkable-mathematical-phenomena-of-deep-learning-through-the-prism-of-interpolation/DBAC769EB7F4DBA5C4720932C2826014)). High-dimensional linear regression plays a key role in understanding this behavior ([Bartlett et al., 2020a](https://pmc.ncbi.nlm.nih.gov/articles/PMC7720150/); [Hastie et al., 2022](https://projecteuclid.org/journals/annals-of-statistics/volume-50/issue-2/Surprises-in-high-dimensional-ridgeless-least-squares-interpolation/10.1214/21-AOS2133.full)).
 
 <div class="text-center">
 {% include figure.liquid 
@@ -34,7 +34,7 @@ Can we still trust overparameterized least squares for parameter estimation and 
 
 <br>
 
-To investigate this, we study a variant of the ordinary least squares (OLS) interpolator in which **only a subset of coefficients is implicitly regularized**, a setting we refer to as *partial regularization*. This framework mirrors modern causal workflows where a treatment coefficient must remain unregularized for interpretability, while high-dimensional nuisance covariates may be effectively penalized.
+To investigate this, we study a variant of the ordinary least squares (OLS) interpolator in which **only a subset of coefficients is implicitly regularized**, a setting we refer to as _partial regularization_. This framework mirrors modern causal workflows where a treatment coefficient must remain unregularized for interpretability, while high-dimensional nuisance covariates may be effectively penalized.
 
 <div class="text-center">
 {% include figure.liquid 
