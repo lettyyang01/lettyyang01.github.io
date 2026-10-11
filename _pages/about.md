@@ -6,21 +6,25 @@ subtitle:
 
 profile:
   align: left
-  # image: prof_pic.JPG  # 隐藏照片
+  image: prof_pic_london.jpg
   image_circular: false # crops the image to make it circular
+  links: true # shows email, CV, GitHub and LinkedIn icons under the photo
   more_info:
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 ---
 
-Welcome! I am Letian, a third-year Ph.D. candidate in the [Department of Data Sciences and Operations (DSO)](https://www.marshall.usc.edu/departments/data-sciences-and-operations) at the University of Southern California (USC). I am fortunate to be advised by Professor [Dennis Shen](https://deshen24.github.io/) in the statistics group.
+Hi, I am Letian, a fourth-year Ph.D. candidate in Statistics in the [Department of Data Sciences and Operations](https://www.marshall.usc.edu/departments/data-sciences-and-operations) at the USC Marshall School of Business, advised by Professor [Dennis Shen](https://deshen24.github.io/). I work on **causal inference** and **high-dimensional statistics**.
 
-Before joining USC Marshall, I received my bachelor’s degree in statistics from the [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/en/).
+Before USC, I received my B.S. in Statistics from the [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/en/) and spent a semester as an exchange student at UC Berkeley.
 
-_“We do not have knowledge of a thing until we have grasped its cause.” — Aristotle_
+My [research](/projects/) is about drawing **reliable conclusions from messy, complex data**. My main project studies how to measure the true effect of a change in a **randomized
+experiment** when there are far more variables than data points. I also work on using **large language models** to improve **recommendations**, and on **deep learning** for **context-specific gene prioritization**.
 
-I believe the world is shaped by causal forces, and I am committed to understanding their structure through rigorous statistical methodology. Modern datasets are vast and deeply informative; statistical models distill the patterns they contain and illuminate the mechanisms that govern real systems. When principled modeling meets domain knowledge, data cease to be mere observations: they become evidence of how and why things happen.
+{% comment %}
+DRAFT, not shown on the site until confirmed and moved above this comment:
 
-Guided by this perspective, my research and career interests lie at the intersection of **causal inference** and **high-dimensional statistical modeling**.
+I am looking for Data Scientist internship opportunities for summer 2027. Feel free to reach out by email.
+{% endcomment %}

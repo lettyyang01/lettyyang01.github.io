@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Benign Overfitting beyond Prediction
-description:
+description: Estimation and inference with partially regularized, overparameterized least squares, with applications to covariate adjustment in randomized experiments.
 img:
 importance: 1
 category: academic

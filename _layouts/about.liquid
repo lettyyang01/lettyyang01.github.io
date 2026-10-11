@@ -32,17 +32,34 @@ layout: default
             cache_bust=true
           %}
         {% endif %}
+        {% if page.profile.links %}
+          {% assign cv_page = site.pages | where: 'permalink', '/cv/' | first %}
+          <div class="profile-links">
+            {% if site.email %}
+              <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
+            {% endif %}
+            {% if cv_page.cv_pdf %}
+              <a href="{{ cv_page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" title="CV" target="_blank" rel="noopener noreferrer"><i class="ai ai-cv"></i></a>
+            {% endif %}
+            {% if site.github_username %}
+              <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fa-brands fa-github"></i></a>
+            {% endif %}
+            {% if site.linkedin_username %}
+              <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            {% endif %}
+          </div>
+        {% endif %}
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
       </div>
     {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+    <div class="clearfix about-content">{{ content }}</div>
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
-      <h2>
+      <h2 class="about-section-title">
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
       </h2>
       {% include news.liquid limit=true %}

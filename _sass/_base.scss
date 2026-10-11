@@ -207,6 +207,56 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Spacing on the about page: body paragraphs, section headings and news rows
+.about-content p {
+  margin-bottom: 1.25rem;
+}
+
+// Keep the about text in its own column so it never wraps under the profile image
+@media (min-width: 576px) {
+  .about-content {
+    overflow: hidden;
+  }
+}
+
+.about-section-title {
+  clear: both;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.news table.table-sm {
+  th,
+  td {
+    padding-top: 0.55rem;
+    padding-bottom: 0.55rem;
+  }
+}
+
+// Contact icons shown under the profile image
+.profile .profile-links {
+  margin-top: 0.75rem;
+  text-align: center;
+  font-size: 1.9rem;
+
+  a {
+    margin: 0 0.3rem;
+
+    i::before {
+      color: var(--global-text-color);
+      transition-property: all 0.2s ease-in-out;
+    }
+
+    &:hover {
+      text-decoration: none;
+
+      i::before {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+}
+
 // Adjust the margin of the profile image
 .profile.float-right {
   margin-left: 2rem;
@@ -873,7 +923,7 @@ html.transition *:after {
 // Extra Markdown style (post Customization)
 .post {
   font-size: 1rem; // 调整正文文字大小
-  line-height: 1.3; // 调整行间距
+  line-height: 1.6; // 调整行间距
 
   .post-meta {
     color: var(--global-text-color-light);

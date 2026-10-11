@@ -4,7 +4,7 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 5
-cv_pdf: CV_Letian_Yang.pdf
+cv_pdf: cv_letian_yang_2026.pdf
 description:
 toc:
   sidebar:

@@ -36,11 +36,31 @@
   ],
   "work": [
     {
+      "name": "Roblox",
+      "position": "Data Scientist PhD Intern",
+      "location": "San Mateo, CA",
+      "startDate": "2026-05-01",
+      "endDate": "2026-08-31",
+      "summary": "",
+      "highlights": []
+    },
+    {
       "name": "Peking University Shenzhen Hospital",
       "position": "Data Scientist Intern",
       "location": "Shenzhen, China",
       "startDate": "2021-06-01",
       "endDate": "2021-08-31",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "teaching": [
+    {
+      "name": "USC Marshall School of Business",
+      "position": "Instructor — BUAD 425 Introduction to Business Analytics",
+      "location": "Los Angeles, CA",
+      "startDate": "2026-08-01",
+      "endDate": "",
       "summary": "",
       "highlights": []
     },
@@ -55,6 +75,12 @@
     }
   ],
   "awards": [
+    {
+      "title": "Marshall Mini Grant",
+      "date": "2026-07",
+      "awarder": "USC Marshall School of Business",
+      "summary": ""
+    },
     {
       "title": "Summa Cum Laude (College of Science)",
       "date": "2023-06",
