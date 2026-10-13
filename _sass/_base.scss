@@ -946,6 +946,39 @@ html.transition *:after {
       }
     }
   }
+
+  // Notes-style body: smaller section headings, roomier code blocks
+  .post-content {
+    h2 {
+      font-size: 1.4rem;
+      font-weight: 500;
+      margin-top: 2.75rem;
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.35rem;
+      border-bottom: 1px solid var(--global-divider-color);
+    }
+
+    h3 {
+      font-size: 1.1rem;
+      font-weight: 500;
+      margin-top: 1.75rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p,
+    ul,
+    ol {
+      margin-bottom: 0.75rem;
+    }
+
+    pre {
+      font-size: 0.85rem;
+      line-height: 1.55;
+      padding: 0.9rem 1.1rem;
+      margin: 0.75rem 0 1.25rem;
+      overflow-x: auto;
+    }
+  }
 }
 
 progress {
@@ -1155,6 +1188,60 @@ nav[data-toggle="toc"] {
 
 #toc-sidebar {
   z-index: 1;
+
+  // two-level outline: phases in bold, steps always visible underneath
+  .nav > li > a,
+  .nav > li > a:hover,
+  .nav > li > a:focus,
+  .nav > li > a.active {
+    padding: 0.2rem 0 0.2rem 0.75rem;
+    border-left: 2px solid transparent;
+    font-size: 0.85rem;
+    font-weight: 600;
+    line-height: 1.35;
+  }
+
+  > .nav > li + li {
+    margin-top: 0.6rem;
+  }
+
+  .nav-link + ul {
+    display: block;
+    padding-bottom: 0;
+  }
+
+  .nav .nav > li > a,
+  .nav .nav > li > a:hover,
+  .nav .nav > li > a:focus,
+  .nav .nav > li > a.active {
+    padding: 0.15rem 0 0.15rem 1.5rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--global-text-color-light);
+  }
+
+  .nav > li > a:hover {
+    color: var(--global-hover-color);
+  }
+
+  .nav > li > a.active,
+  .nav .nav > li > a.active {
+    color: var(--global-theme-color);
+    border-left-color: var(--global-theme-color);
+  }
+}
+
+// fixed-width outline column on wide screens, so the text keeps the rest
+@media (min-width: 992px) {
+  .toc-col {
+    flex: 0 0 210px;
+    max-width: 210px;
+  }
+
+  .toc-main {
+    flex: 0 0 calc(100% - 210px);
+    max-width: calc(100% - 210px);
+  }
 }
 
 .echarts {
